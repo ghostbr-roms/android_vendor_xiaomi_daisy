@@ -256,4 +256,5 @@ LOCAL_MULTILIB := both
 LOCAL_SRC_FILES_32 := proprietary/lib/libqdMetaData.system.so
 LOCAL_SRC_FILES_64 := proprietary/lib64/libqdMetaData.system.so
 include $(BUILD_PREBUILT)
+
 endif
