@@ -248,4 +248,12 @@ LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqdMetaData.system
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MULTILIB := both
+LOCAL_SRC_FILES_32 := proprietary/lib/libqdMetaData.system.so
+LOCAL_SRC_FILES_64 := proprietary/lib64/libqdMetaData.system.so
+include $(BUILD_PREBUILT)
 endif
