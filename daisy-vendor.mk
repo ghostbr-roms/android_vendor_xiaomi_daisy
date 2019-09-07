@@ -197,7 +197,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/daisy/proprietary/lib64/vendor.qti.latency@2.0.so:system/lib64/vendor.qti.latency@2.0.so \
 	vendor/xiaomi/daisy/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
-	vendor/xiaomi/daisy/proprietary/etc/perf/whitelistedapps.xml:system/etc/perf/whitelistedapps.xml \
 	vendor/xiaomi/daisy/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
 	vendor/xiaomi/daisy/proprietary/bin/perfservice:system/bin/perfservice \
     vendor/xiaomi/daisy/proprietary/lib/libqti-iopd-client_system.so:system/lib/libqti-iopd-client_system.so \
